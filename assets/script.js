@@ -24,10 +24,6 @@ usdInput.value = '0,00' // variavel para o campo input usd sempre comecar com es
 
 convert('usd-to-brl')
 
-
-
-
-
 //FUNCOES
 function formatCurrency(value) {
     let fixedValue  = fixValue(value) //varivel do valor formatado vai ser meu numero com o ajuste
