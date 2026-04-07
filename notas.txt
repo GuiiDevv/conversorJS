@@ -1,0 +1,54 @@
+
+JS - rodava antes dentro do navegador mas atualmente pode criar seus próprios servidores, app...
+
+- implementa o JS dentro do 'body' no final dele. para deixar o carregamento mais rápido;
+
+- se coloco JS dentro do head, não seria problema mas a página carregaria mais devagar;
+
+- JS não precisa esta carregado para minha pagina aparecer, permanece dentro do body;
+
+
+
+let idade = 90
+let nome = "90" /* nao é um numero e sim uma string com o 9 e 0 */
+
+console.log(idade)
+
+console.log(nome)
+
+
+
+
+
+// fazer um array com objetos ?
+[{}]
+
+---------------------------------------------------------------
+
+usdInput.addEventListener('keyup', () => {
+    console.log(usdInput.value)
+})
+
+= para pegar o valor que esta dentro do inputtext
+
+---------------------------------------------------------------
+
+usdInput.addEventListener('keyup', () => {
+    console.log('apertou no campo ')
+})
+
+= contagem de vezes que alguem clicou em uma tecla no inputtext
+
+----------------------------------------------------------------
+
+function avisar () {
+    alert('opa, fui disparado!')
+}
+
+let botao = document.querySelector('#botao')
+
+botao.addEventListener('click', () => {
+    avisar()
+})
+
+---------------------------------------------------------------
